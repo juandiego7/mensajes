@@ -28,10 +28,6 @@ import co.com.juandiego.mensajes.modelo.Cita;
 
 public class ServicioNotificacion extends Service {
 
-    TimerTask timerTask;
-    Timer timer;
-
-    private int tiempo = 6000;// = 6 segundos
     private DatabaseReference mFirebaseDatabaseReference;
     int notificacionId = 1001;
     private String cedula;
@@ -54,7 +50,6 @@ public class ServicioNotificacion extends Service {
 
         cedula = sharedPref.getString(MainActivity.CEDULA,"");
 
-        Toast.makeText(getApplicationContext(), "Servicio de notificacion", Toast.LENGTH_SHORT).show();
 
         mFirebaseDatabaseReference = FirebaseDatabase.getInstance().getReference();
 
