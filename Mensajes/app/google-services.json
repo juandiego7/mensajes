@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "156733864714",
+    "firebase_url": "https://mensajes-d975c.firebaseio.com",
+    "project_id": "mensajes-d975c",
+    "storage_bucket": "mensajes-d975c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156733864714:android:d063f37dee3a3ad8",
+        "android_client_info": {
+          "package_name": "co.com.juandiego.mensajes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156733864714-t2cjaql98e4eqitf2hgde0j7sl9tlo2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.com.juandiego.mensajes",
+            "certificate_hash": "2fbbd0fd8982232fb913fa081c81073eca253c3c"
+          }
+        },
+        {
+          "client_id": "156733864714-eql7246nklh0nktl8ctu15qabqv13tal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDfBwZRvOBGPmW3-rPsR3bJu3-l7xTQ2s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156733864714-eql7246nklh0nktl8ctu15qabqv13tal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
